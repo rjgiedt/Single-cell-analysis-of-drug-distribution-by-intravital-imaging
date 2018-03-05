@@ -1,7 +1,9 @@
 # Single cell analysis of drug distribution by intravital imaging
 
-Installation:
+## Summary 
+Recent advances in the field of intravital imaging have for the first time allowed us to conduct pharmacokinetic and pharmacodynamic studies at the single cell level in live animal models. Due to these advances, there is now a critical need for automated analysis of pharmacokinetic data. To address this, we began by surveying common thresholding methods to determine which would be most appropriate for identifying fluorescently labeled drugs in intravital imaging. We then developed a segmentation algorithm that allows semi-automated analysis of pharmacokinetic data at the single cell level. Ultimately, we were able to show that drug concentrations can indeed be extracted from serial intravital imaging in an automated fashion. We believe that the application of this algorithm will be of value to the analysis of intravital microscopy imaging particularly when imaging drug action at the single cell level.
 
+## Code
 The package contains one code directory and one example dataset directory.
 
 The code is designed to run in Matlab and requires the following Matlab toolboxes:
